@@ -310,6 +310,20 @@
   text-align: center;
 }
 
+h1 {
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.specification-container img {
+  display: none;
+}
+
+.headphone {
+  display: none;
+}
+
 .forth-container p {
   font-size: 20px;
   font-weight: 400;
@@ -461,90 +475,110 @@ button {
 /* Media Query for responsive devices */
 
 @media only screen and (max-width: 768px) {
-  /* Adjustments for mobile devices */
-
   /* First Section */
   .first-container {
     flex-direction: column;
-    height: auto; /* Adjust height to accommodate content */
-    padding: 20px; /* Add padding for better spacing */
+    height: auto;
+    padding: 20px;
   }
 
   .left-container {
-    display: none; /* Hide left container on smaller screens */
+    display: none;
   }
 
   .right-container {
-    background-image: none; /* Remove background image for better visibility */
+    background-image: none;
   }
 
   .product-detail {
-    flex-direction: column; /* Stack product details vertically */
-    align-items: center; /* Center align content */
+    flex-direction: column;
+    align-items: center;
   }
 
   .prodcut-text-detail h1 {
-    font-size: 2rem; /* Decrease heading size */
-    text-align: center; /* Center align heading */
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
   }
 
   .prodcut-text-detail p {
-    font-size: 1rem; /* Decrease paragraph font size */
-    text-align: center; /* Center align paragraphs */
+    font-size: 0.5rem;
+    text-align: center;
+    line-height: 1;
   }
 
   .headphone {
-    width: 100%; /* Make headphone image fluid */
-    height: auto; /* Auto adjust height to maintain aspect ratio */
-    margin-right: 0; /* Remove margin */
-    margin-bottom: 20px; /* Add margin at the bottom for spacing */
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
   }
 
   .white-box {
-    display: none; /* Hide white box on smaller screens */
+    display: none;
   }
 
   /* Second Section */
   .second-container {
-    padding: 20px; /* Add padding for better spacing */
+    padding: 20px;
   }
 
   .tech-container {
-    flex-direction: column; /* Stack tech container vertically */
-    gap: 20px; /* Add gap between elements */
-    text-align: center; /* Center align text */
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .tech-container h1 {
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
   }
 
   /* Third Section */
   .third-container {
-    padding: 20px; /* Add padding for better spacing */
+    padding: 20px;
   }
 
   .specification-container {
-    flex-direction: column; /* Stack specification container vertically */
-    align-items: center; /* Center align content */
-    gap: 20px; /* Add gap between elements */
-    margin: 0; /* Remove margin */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
   }
 
   /* Fourth Section */
   .forth-container {
-    padding: 20px; /* Add padding for better spacing */
+    padding: 20px;
+    text-align: center;
+  }
+
+  .forth-container h1 {
+    font-size: 1rem;
+  }
+
+  .features-card-container {
+    flex-wrap: nowrap;
+    font-size: 10px;
   }
 
   /* Last Section */
   .last-container {
-    padding: 20px; /* Add padding for better spacing */
+    padding: 20px;
+  }
+
+  .last-container h1 {
+    font-size: 1rem;
   }
 
   .footer-container {
-    flex-direction: column; /* Stack footer content vertically */
-    gap: 20px; /* Add gap between elements */
+    flex-direction: column;
+    gap: 20px;
   }
 
   .first-footer,
   .footer-contact,
   .last-footer {
-    text-align: center; /* Center align text */
+    text-align: center;
   }
 }
