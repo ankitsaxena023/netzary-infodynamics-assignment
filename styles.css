@@ -310,20 +310,6 @@
   text-align: center;
 }
 
-h1 {
-  font-size: 1rem;
-  line-height: 1;
-  text-align: center;
-}
-
-.specification-container img {
-  display: none;
-}
-
-.headphone {
-  display: none;
-}
-
 .forth-container p {
   font-size: 20px;
   font-weight: 400;
@@ -502,9 +488,8 @@ button {
   }
 
   .prodcut-text-detail p {
-    font-size: 0.5rem;
+    font-size: 1rem;
     text-align: center;
-    line-height: 1;
   }
 
   .headphone {
@@ -529,12 +514,6 @@ button {
     text-align: center;
   }
 
-  .tech-container h1 {
-    font-size: 1rem;
-    line-height: 1;
-    text-align: center;
-  }
-
   /* Third Section */
   .third-container {
     padding: 20px;
@@ -550,25 +529,11 @@ button {
   /* Fourth Section */
   .forth-container {
     padding: 20px;
-    text-align: center;
-  }
-
-  .forth-container h1 {
-    font-size: 1rem;
-  }
-
-  .features-card-container {
-    flex-wrap: nowrap;
-    font-size: 10px;
   }
 
   /* Last Section */
   .last-container {
     padding: 20px;
-  }
-
-  .last-container h1 {
-    font-size: 1rem;
   }
 
   .footer-container {
